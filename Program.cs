@@ -38,7 +38,7 @@ namespace Recursive
     {
         static void Main(string[] args)
         {
-            
+        // var process;
         Process process = new Process(Convert.ToDouble(Console.ReadLine()),  /* Enter money */
                                       Convert.ToDouble(Console.ReadLine()),  /* Enter interest */
                                       Convert.ToInt32(Console.ReadLine())    /* Enter days */
