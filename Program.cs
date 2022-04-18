@@ -5,9 +5,9 @@ namespace Recursive
     class Account
     {
         public int day { get; set; }
-        public double money { get; set; }
-        
+        public double money { get; set; }   
     }
+    
     class Process:Account
     {
         public double interest { get; set; }
@@ -33,6 +33,7 @@ namespace Recursive
         }
 
     }
+    
     class Program
     {
         static void Main(string[] args)
